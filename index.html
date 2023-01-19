@@ -17,8 +17,19 @@
 <body>
     <div class="container">
         <h1>Weather App</h1>
+        <div class="loc-icons">
+            <div class="icons country">
+                Country
+            </div>
+            <div class="icons state">
+                State
+            </div>
+        </div>
         <div class="location">
-            <input type="text" placeholder="Your locaction..">
+            <input type="text" placeholder="Your locaction.." id="location-id">
+            <div id="btn" onclick="getLocation()">
+                Submit
+            </div>
         </div>
         <div class="info">
 

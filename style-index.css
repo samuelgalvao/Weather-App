@@ -22,21 +22,72 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 }
 
 .container h1{
     text-align: center;
     font-size: 70px;
+    cursor: default;
 }
 .location{
     height: 10%;
     width: 60%;
+    display: flex;
+    gap: 3px;
 }
-.location input{
+.location #location-id{
     padding-left: 20px;
     border: none;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
     width: 100%;
     height: 100%;
     font: bolder 1em 'montserrat', sans-serif;
+}
+.location #btn{
+    border-radius:  0px 15px 15px 0px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: var(--purple);
+    font: bolder 1em 'montserrat', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+.location #btn:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.loc-icons{
+    width: 50%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.555);
+    font: bolder 1em 'montserrat', sans-serif;
+    cursor: default;
+}
+.country{
+    background-image: url('https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg/@@images/image');
+    background-size: 100%;
+}
+.state{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/255px-Bandeira_da_Bahia.svg.png');
+    background-size: 100%;
+}
+.icons:hover{
+    
 }

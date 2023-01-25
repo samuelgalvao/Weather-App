@@ -8,9 +8,7 @@ async function getData(url){
 
 function getLocation(city, country, state){
 
-    const url = `http://api.weatherapi.com/v1/current.json?key=878f515b0dee4c9b8b3185638231701&q=${country}, ${state}, ${city}&aqi=no`
-
-    // Campo Alegre de Lourdes
+    const url = `https://api.weatherapi.com/v1/current.json?key=878f515b0dee4c9b8b3185638231701&q=${country}, ${state}, ${city}&aqi=no`
 
     getData(url).then((value) => {
         addValues(value)

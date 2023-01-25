@@ -40,7 +40,6 @@ body{
     gap: 3px;
 }
 .location #location-id{
-    padding-left: 20px;
     border: none;
     border-radius: 15px;
     width: 100%;

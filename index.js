@@ -68,7 +68,7 @@ function addValues(value){
 function addBackground(val){
     const weather = {
         partlyCloud : 'https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        clear: 'https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        clear: 'https://images.pexels.com/photos/296234/pexels-photo-296234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         cloudy: 'https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         overcast: 'https://i.pinimg.com/564x/ef/d5/9f/efd59faf3143484ed8687e131f079df0.jpg',
         mist: 'https://i.pinimg.com/564x/ea/38/9e/ea389e33117550f19be7e3606f86398a.jpg',

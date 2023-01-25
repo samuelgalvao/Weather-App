@@ -46,9 +46,6 @@ function insertLocation(loc){
     input.value += loc
 }
 
-/*
-    @function addValues(temp_c, temp_f, humidity)
-*/
 function addValues(value){
     const celsi = document.querySelector('.temp_c')
     const feih  = document.querySelector('.temp_f')
